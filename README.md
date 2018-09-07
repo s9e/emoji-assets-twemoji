@@ -5,7 +5,7 @@ This repository provides a copy of the Twemoji image set, optimized for the web.
 
 ## How to build
 
-You will need Bash, php, npm and zopfli installed. Run `scripts/init.sh` to install git submodules and svgo, then run 
+You will need Bash, npm and zopfli installed. Run `scripts/init.sh` to install git submodules and svgo, then run 
 `scripts/build.sh` to rebuild the files in the `dist` directory. The process is single threaded and will take several minutes.
 
 
