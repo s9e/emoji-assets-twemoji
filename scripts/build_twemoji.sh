@@ -25,7 +25,7 @@ echo "[1/4] Copying text files..."
 cp "$SRC_EMOJI_DIR/AUTHORS" "$SRC_EMOJI_DIR/LICENSE-GRAPHICS" "$TRG_DIR"
 
 echo "[2/4] Copying emoji..."
-for src_file in "$SRC_EMOJI_DIR/2/svg/"*.svg;
+for src_file in "$SRC_EMOJI_DIR/assets/svg/"*.svg;
 do
 	trg_file="$TRG_DIR/svg/$(normalize $(basename $src_file))"
 

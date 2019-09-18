@@ -1,8 +1,4 @@
-[submodule "twemoji"]
-	path = third_party/twitter/twemoji
-	url = https://github.com/twitter/twemoji.git
-	branch = gh-pages
 [submodule "third_party/twitter/twemoji"]
 	path = third_party/twitter/twemoji
 	url = https://github.com/twitter/twemoji.git
-	branch = gh-pages
+	branch = master
