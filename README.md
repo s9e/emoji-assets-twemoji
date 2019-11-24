@@ -3,6 +3,15 @@ This repository provides a copy of the Twemoji image set, optimized for the web.
 <img width="40" height="40" src="https://cdn.jsdelivr.net/gh/s9e/emoji-assets-twemoji/dist/svgz/1f929.svgz">
 
 
+## How to use
+
+The simplest way to use this image set is to use [jsDelivr](https://www.jsdelivr.com/)'s CDN service:
+```html
+<img width="40" height="40" src="https://cdn.jsdelivr.net/gh/s9e/emoji-assets-twemoji/dist/svgz/1f929.svgz">
+```
+You can read about the scheme used for filenames in [the section below](#differences-from-twemoji) .
+
+
 ## How to build
 
 You will need Bash, npm and zopfli installed. Run `scripts/init.sh` to install git submodules and svgo, then run 
