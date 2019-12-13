@@ -1,4 +1,4 @@
-This repository provides a copy of the Twemoji image set, optimized for the web.
+This repository provides a copy of the [Twemoji](https://github.com/twitter/twemoji) image set, optimized for the web.
 
 <img width="40" height="40" src="https://cdn.jsdelivr.net/gh/s9e/emoji-assets-twemoji/dist/svgz/1f929.svgz">
 
@@ -28,7 +28,7 @@ Filenames have been normalized and the SVG content has been minified with [SVGO]
 ## License
 
 - Tools in the `scripts` directory are under the [MIT license](scripts/LICENSE).
-- Images in the `dist` directory are licensed under [CC-BY 4.0](dist/LICENSE-GRAPHICS), Copyright Twitter, Inc and [other contributors](https://github.com/twitter/twemoji/graphs/contributors).
+- Images in the `dist` directory are licensed under [CC-BY 4.0](dist/LICENSE-GRAPHICS), Copyright Twitter, Inc and [other contributors](https://github.com/twitter/twemoji/graphs/contributors). Read about [attribution requirements](https://github.com/twitter/twemoji#attribution-requirements).
 
 
 ## Differences from Twemoji
